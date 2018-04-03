@@ -12,16 +12,39 @@ function enviar(pagina){
 document.nombreDelFormulario.action = pagina;
 document.nombreDelFormulario.submit();
 }
-
-
 </script>
 
 <style >
-	
+  
 body {
-
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAGTiv0xc0UETSoQB0kwlS0qEJSSFGcvGmyn4KorvZlKWHCDQh");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAGTiv0xc0UETSoQB0kwlS0qEJSSFGcvGmyn4KorvZlKWHCDQh");
 }
+
+#button_1{
+
+  border: 2px solid black;
+  font-size: 15px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #4972B5;
+  background: linear-gradient(left, #4972B5, #618ACB);
+  background: -moz-linear-gradient(left, #4972B5, #618ACB);
+  background: -webkit-linear-gradient(left, #4972B5, #618ACB);
+  background: -o-linear-gradient(left, #4972B5, #618ACB);
+  color: #FFFFFF; 
+}
+
+  
+}
+
+
 
 </style>
 </head>
@@ -32,12 +55,18 @@ body {
 
 
 <FORM>
-<INPUT Type="BUTTON" Value="Homepage" Onclick="window.location.href='https://www.netflix.com/'">
-</br>
-<INPUT Type="BUTTON" Value="Pagar Anualidad" Onclick="window.location.href='https://www1.sucursalelectronica.com/redir/showLogin.go/'">
-</br>
-<INPUT Type="BUTTON" Value="Soporte Tecnico" Onclick="window.location.href='https://help.netflix.com/es/'">
-</br>
+
+
+
+
+<INPUT id="button_1"  Type="BUTTON" Value="Homepage" Onclick="window.location.href='https://www.netflix.com/'">
+
+<INPUT id="button_1"  Type="BUTTON" Value="Pagar Anualidad" Onclick="window.location.href='https://www1.sucursalelectronica.com/redir/showLogin.go/'">
+
+<INPUT id="button_1"  Type="BUTTON" Value="Soporte Tecnico" Onclick="window.location.href='https://help.netflix.com/es/'">
+
+
+
 </FORM>
 </form>
 
